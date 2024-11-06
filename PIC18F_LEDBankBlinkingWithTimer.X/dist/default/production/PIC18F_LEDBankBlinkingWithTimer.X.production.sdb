@@ -1,0 +1,225 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F57Q43 ]
+[d frameptr 1249 ]
+"4 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.50\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"7 C:\Users\simeo\Qsync\MCU\Projects\PIC18F_LEDBankBlinkingWithTimer.X\interrupts.c
+[v _INTERRUPT_initialize INTERRUPT_initialize `(v  1 e 1 0 ]
+"25
+[v _BUTTON_ISR BUTTON_ISR `IIH(v  1 e 1 0 ]
+"44
+[v _TMR0_ISR TMR0_ISR `IIH(v  1 e 1 0 ]
+"14 C:\Users\simeo\Qsync\MCU\Projects\PIC18F_LEDBankBlinkingWithTimer.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"11112 C:/Program Files/Microchip/MPLABX/v6.20/packs/Microchip/PIC18F-Q_DFP/1.24.430/xc8\pic\include\proc\pic18f57q43.h
+[v _INT1PPS INT1PPS `VEuc  1 e 1 @575 ]
+[s S69 . 1 `uc 1 OUTPS 1 0 :4:0 
+`uc 1 MD16 1 0 :1:4 
+`uc 1 OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 EN 1 0 :1:7 
+]
+"23724
+[s S75 . 1 `uc 1 T0OUTPS 1 0 :4:0 
+`uc 1 T0MD16 1 0 :1:4 
+`uc 1 T0OUT 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 T0EN 1 0 :1:7 
+]
+[s S81 . 1 `uc 1 OUTPS0 1 0 :1:0 
+`uc 1 OUTPS1 1 0 :1:1 
+`uc 1 OUTPS2 1 0 :1:2 
+`uc 1 OUTPS3 1 0 :1:3 
+`uc 1 T016BIT 1 0 :1:4 
+]
+[s S87 . 1 `uc 1 T0OUTPS0 1 0 :1:0 
+`uc 1 T0OUTPS1 1 0 :1:1 
+`uc 1 T0OUTPS2 1 0 :1:2 
+`uc 1 T0OUTPS3 1 0 :1:3 
+]
+[u S92 . 1 `S69 1 . 1 0 `S75 1 . 1 0 `S81 1 . 1 0 `S87 1 . 1 0 ]
+[v _T0CON0bits T0CON0bits `VES92  1 e 1 @794 ]
+[s S121 . 1 `uc 1 CKPS 1 0 :4:0 
+`uc 1 ASYNC 1 0 :1:4 
+`uc 1 CS 1 0 :3:5 
+]
+"23851
+[s S125 . 1 `uc 1 CKPS0 1 0 :1:0 
+`uc 1 CKPS1 1 0 :1:1 
+`uc 1 CKPS2 1 0 :1:2 
+`uc 1 CKPS3 1 0 :1:3 
+`uc 1 T0ASYNC 1 0 :1:4 
+`uc 1 CS0 1 0 :1:5 
+`uc 1 CS1 1 0 :1:6 
+`uc 1 CS2 1 0 :1:7 
+]
+[s S134 . 1 `uc 1 T0CKPS 1 0 :4:0 
+`uc 1 . 1 0 :1:4 
+`uc 1 T0CS 1 0 :3:5 
+]
+[s S138 . 1 `uc 1 T0CKPS0 1 0 :1:0 
+`uc 1 T0CKPS1 1 0 :1:1 
+`uc 1 T0CKPS2 1 0 :1:2 
+`uc 1 T0CKPS3 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 T0CS0 1 0 :1:5 
+`uc 1 T0CS1 1 0 :1:6 
+`uc 1 T0CS2 1 0 :1:7 
+]
+[u S147 . 1 `S121 1 . 1 0 `S125 1 . 1 0 `S134 1 . 1 0 `S138 1 . 1 0 ]
+[v _T0CON1bits T0CON1bits `VES147  1 e 1 @795 ]
+[s S48 . 1 `uc 1 ANSELB0 1 0 :1:0 
+`uc 1 ANSELB1 1 0 :1:1 
+`uc 1 ANSELB2 1 0 :1:2 
+`uc 1 ANSELB3 1 0 :1:3 
+`uc 1 ANSELB4 1 0 :1:4 
+`uc 1 ANSELB5 1 0 :1:5 
+`uc 1 ANSELB6 1 0 :1:6 
+`uc 1 ANSELB7 1 0 :1:7 
+]
+"40528
+[u S57 . 1 `S48 1 . 1 0 ]
+"40528
+"40528
+[v _ANSELBbits ANSELBbits `VES57  1 e 1 @1032 ]
+"41069
+[v _WPUC WPUC `VEuc  1 e 1 @1041 ]
+[s S302 . 1 `uc 1 SPI1RXIE 1 0 :1:0 
+`uc 1 SPI1TXIE 1 0 :1:1 
+`uc 1 SPI1IE 1 0 :1:2 
+`uc 1 TMR2IE 1 0 :1:3 
+`uc 1 TMR1IE 1 0 :1:4 
+`uc 1 TMR1GIE 1 0 :1:5 
+`uc 1 CCP1IE 1 0 :1:6 
+`uc 1 TMR0IE 1 0 :1:7 
+]
+"47289
+[u S311 . 1 `S302 1 . 1 0 ]
+"47289
+"47289
+[v _PIE3bits PIE3bits `VES311  1 e 1 @1185 ]
+[s S259 . 1 `uc 1 INT1IE 1 0 :1:0 
+`uc 1 CLC2IE 1 0 :1:1 
+`uc 1 CWG1IE 1 0 :1:2 
+`uc 1 NCO1IE 1 0 :1:3 
+`uc 1 DMA2SCNTIE 1 0 :1:4 
+`uc 1 DMA2DCNTIE 1 0 :1:5 
+`uc 1 DMA2ORIE 1 0 :1:6 
+`uc 1 DMA2AIE 1 0 :1:7 
+]
+"47459
+[u S268 . 1 `S259 1 . 1 0 ]
+"47459
+"47459
+[v _PIE6bits PIE6bits `VES268  1 e 1 @1188 ]
+[s S281 . 1 `uc 1 SPI1RXIF 1 0 :1:0 
+`uc 1 SPI1TXIF 1 0 :1:1 
+`uc 1 SPI1IF 1 0 :1:2 
+`uc 1 TMR2IF 1 0 :1:3 
+`uc 1 TMR1IF 1 0 :1:4 
+`uc 1 TMR1GIF 1 0 :1:5 
+`uc 1 CCP1IF 1 0 :1:6 
+`uc 1 TMR0IF 1 0 :1:7 
+]
+"48163
+[u S290 . 1 `S281 1 . 1 0 ]
+"48163
+"48163
+[v _PIR3bits PIR3bits `VES290  1 e 1 @1201 ]
+[s S238 . 1 `uc 1 INT1IF 1 0 :1:0 
+`uc 1 CLC2IF 1 0 :1:1 
+`uc 1 CWG1IF 1 0 :1:2 
+`uc 1 NCO1IF 1 0 :1:3 
+`uc 1 DMA2SCNTIF 1 0 :1:4 
+`uc 1 DMA2DCNTIF 1 0 :1:5 
+`uc 1 DMA2ORIF 1 0 :1:6 
+`uc 1 DMA2AIF 1 0 :1:7 
+]
+"48333
+[u S247 . 1 `S238 1 . 1 0 ]
+"48333
+"48333
+[v _PIR6bits PIR6bits `VES247  1 e 1 @1204 ]
+[s S27 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"49282
+[u S36 . 1 `S27 1 . 1 0 ]
+"49282
+"49282
+[v _TRISBbits TRISBbits `VES36  1 e 1 @1223 ]
+"49327
+[v _TRISC TRISC `VEuc  1 e 1 @1224 ]
+"49669
+[v _PORTC PORTC `VEuc  1 e 1 @1232 ]
+[s S212 . 1 `uc 1 INT0EDG 1 0 :1:0 
+`uc 1 INT1EDG 1 0 :1:1 
+`uc 1 INT2EDG 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 IPEN 1 0 :1:5 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"49913
+[s S220 . 1 `uc 1 . 1 0 :7:0 
+`uc 1 GIEH 1 0 :1:7 
+]
+"49913
+[u S223 . 1 `S212 1 . 1 0 `S220 1 . 1 0 ]
+"49913
+"49913
+[v _INTCON0bits INTCON0bits `VES223  1 e 1 @1238 ]
+"4 C:\Users\simeo\Qsync\MCU\Projects\PIC18F_LEDBankBlinkingWithTimer.X\interrupts.c
+[v _LED_on_flag LED_on_flag `a  1 e 1 0 ]
+"5
+[v _LED_counter LED_counter `uc  1 e 1 0 ]
+"14 C:\Users\simeo\Qsync\MCU\Projects\PIC18F_LEDBankBlinkingWithTimer.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"37
+} 0
+"7 C:\Users\simeo\Qsync\MCU\Projects\PIC18F_LEDBankBlinkingWithTimer.X\interrupts.c
+[v _INTERRUPT_initialize INTERRUPT_initialize `(v  1 e 1 0 ]
+{
+"23
+} 0
+"25
+[v _BUTTON_ISR BUTTON_ISR `IIH(v  1 e 1 0 ]
+{
+"42
+} 0
+"44
+[v _TMR0_ISR TMR0_ISR `IIH(v  1 e 1 0 ]
+{
+"53
+} 0
